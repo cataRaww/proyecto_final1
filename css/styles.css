@@ -177,20 +177,12 @@ body .navbar-nav a {
      object-fit: cover;
 }
 
-h2 .TextoMision {
-  margin-left: 60px;
+.TextoMision, .TextoVision {
+  margin-left: 30px;
 }
 
-p .BajadaMision {
-  margin-left: 20px;
-}
-
-h2 .textoVision {
-  margin-left: 60px;
-}
-
-p .BajadaVision {
-  margin-left: 20px;
+.BajadaMision, .BajadaVision {
+  margin-left: 15px;
 }
 
 .IMGbajdadaNosotros img {
