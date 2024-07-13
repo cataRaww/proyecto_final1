@@ -1,0 +1,41 @@
+/* AYUDA */
+.tituloAyuda{
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #000000;
+   
+}
+
+.contenedorCard {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    height: 100%;
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 100%;
+        }
+        .card-title{
+            font-size: 15px;
+            color:#ad6def
+        }
+       }
+    }
+}
+.bannerAyuda img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 120px;
+}
+
