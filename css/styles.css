@@ -180,15 +180,17 @@ body .navbar-nav a {
 h2 .TextoMision {
   margin-left: 60px;
 }
-h2 .TextoMision p .BajadaMision {
-  margin-left: 15px;
+
+p .BajadaMision {
+  margin-left: 20px;
 }
 
-h2 .TextoVision {
+h2 .textoVision {
   margin-left: 60px;
 }
-h2 .TextoVision p .BajadaVision {
-  margin-left: 15px;
+
+p .BajadaVision {
+  margin-left: 20px;
 }
 
 .IMGbajdadaNosotros img {

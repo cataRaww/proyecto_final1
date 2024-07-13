@@ -44,27 +44,28 @@
 }
 
 h2{
-   .TextoMision{
-    margin-left: 60px;
-    p{
-        .BajadaMision{
-            margin-left: 15px;
-        }
+    .TextoMision{
+        margin-left: 60px;
     }
-   } 
+}
+
+p{
+    .BajadaMision{
+        margin-left: 20px;
+    }
 }
 
 h2{
-    .TextoVision{
-        margin-left: 60px;
-        p{
-            .BajadaVision{
-                margin-left: 15px;
-            }
-        }
-    }
+   .textoVision{
+    margin-left: 60px;
+   }
 }
 
+p{
+    .BajadaVision{
+        margin-left: 20px;
+    }
+}
 .IMGbajdadaNosotros img{
     width: 100%;
     height: auto;
