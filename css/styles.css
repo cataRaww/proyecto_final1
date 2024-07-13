@@ -181,18 +181,22 @@ body .navbar-nav a {
   margin-left: 60px;
 }
 .TextoMision .TextoMisionBajada {
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 .TextoVision {
   margin-left: 60px;
 }
 .TextoVision .TextoBajadaVision {
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 .IMGbajdadaNosotros {
   padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 120px;
 }
 
 /* GALERIA*/
