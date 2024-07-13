@@ -429,6 +429,10 @@ footer .textoFooter .rrss {
   text-decoration: inherit !important;
   text-align: center;
   font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer p {
   color: white;
