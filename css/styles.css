@@ -178,7 +178,9 @@ body .navbar-nav a {
 }
 
 .TextoMision {
-  margin-left: 20px;
+  margin-left: 30px;
+  -webkit-text-decoration: #0097a9;
+          text-decoration: #0097a9;
 }
 
 /* GALERIA*/
