@@ -177,6 +177,16 @@ body .navbar-nav a {
      object-fit: cover;
 }
 
+.TextoMision {
+  -webkit-text-decoration: #0097a9;
+          text-decoration: #0097a9;
+  text-decoration-color: #ffffff;
+  margin-left: 15px;
+}
+.TextoMision .TextoMisionBajada {
+  text-decoration-color: #303030;
+}
+
 /* GALERIA*/
 .cardimg, .row {
   max-width: 1200px;
