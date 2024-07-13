@@ -1,0 +1,15 @@
+.cardimg{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    .col-sm{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        .imgBajada{
+            width: 285px;
+            height: 265px;  
+            border-radius: 10px;
+            border:solid #ad6def;
+        }
+    }
+}
