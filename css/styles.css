@@ -110,7 +110,8 @@ body .navbar-nav a {
 .container .image-container .image {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
@@ -131,54 +132,6 @@ body .navbar-nav a {
   background-color: #0056b3;
 }
 
-/* inicio contenido
-.texto{
-    text-align: center;
-    font-size: 15px;
-    margin-top:15px;
-    margin-bottom: 10px;
-    margin-right: 70px;
-    margin-left: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color:#d5e7f7;
-    border-radius: 15px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    .image-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .image{
-            width: 500px;
-            height: 512px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-            .button{
-                width: 80px;
-                height: 40px;
-                background-color: #ad6def;
-                color: #fff;
-                border: none; border-radius: 10px;
-                cursor: pointer;
-                font-size: 12px;
-                text-align: center;
-                line-height: 20px; 
-                .button:hover{
-                    background-color: #0056b3;
-                }
-            }
-        } 
-    }
-}
-*/
 /* NOSOTROS*/
 .textoNosotros {
   text-align: center;
@@ -220,7 +173,8 @@ body .navbar-nav a {
 .container .card .card-body .video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* GALERIA*/
@@ -461,7 +415,7 @@ footer {
   justify-content: center;
   gap: 100px;
   padding: 10px 0;
-  background: #0097a9;
+  background: #000000;
 }
 footer .icon {
   margin-left: 10px;
@@ -471,8 +425,8 @@ footer .icon {
   padding-top: 10px;
   filter: brightness(2);
 }
-footer .textoFooter a {
-  text-decoration: none !important;
+footer .textoFooter .rrss {
+  text-decoration: inherit !important;
   text-align: center;
   font-size: 8px;
 }
@@ -499,6 +453,4 @@ footer p {
     grid-template-rows: 3fr;
     grid-template-areas: "encabezado" "banner" "main" "footer";
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
