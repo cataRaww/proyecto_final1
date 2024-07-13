@@ -425,7 +425,7 @@ footer .icon {
   padding-top: 10px;
   filter: brightness(2);
 }
-footer .textoFooter .rrss {
+footer a {
   text-decoration: inherit !important;
   text-align: center;
   font-size: 8px;
