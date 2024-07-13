@@ -178,12 +178,7 @@ body .navbar-nav a {
 }
 
 .TextoMision {
-  -webkit-text-decoration: #0097a9;
-          text-decoration: #0097a9;
-  margin-left: 15px;
-}
-.TextoMision .TextoMisionBajada {
-  text-decoration-color: #303030;
+  margin-left: 20px;
 }
 
 /* GALERIA*/
