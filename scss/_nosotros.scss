@@ -42,20 +42,25 @@
     }
     }
 }
-.TextoMision {
+
+h2{
+   .TextoMision{
     margin-left: 60px;
-    p {
-        .BajadaMision {
-            margin-left: 30px;
+    p{
+        .BajadaMision{
+            margin-left: 15px;
         }
     }
+   } 
 }
 
-.TextoVision {
-    margin-left: 60px;
-    p {
-        .BajadaVision {
-            margin-left: 30px;
+h2{
+    .TextoVision{
+        margin-left: 60px;
+        p{
+            .BajadaVision{
+                margin-left: 15px;
+            }
         }
     }
 }
