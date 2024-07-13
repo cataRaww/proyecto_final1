@@ -19,10 +19,14 @@ footer {
         padding-top: 10px;
         filter: brightness(2);
     }
-    .textoFooter a{
-        text-decoration: none !important;
+    .textoFooter .rrss{
+        text-decoration: inherit !important;
         text-align: center;
         font-size: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     p {
