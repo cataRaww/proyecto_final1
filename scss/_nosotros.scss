@@ -42,9 +42,15 @@
     }
     }
 }
-
 .TextoMision{
     margin-left: 30px;
-    text-decoration: #0097a9;
+    .TextoBajadaMision{
+        margin-left: 15px;
+    }
 }
-    
+.TextoVision{
+    margin-left: 30px;
+    .TextoBajadaVision{
+        margin-left: 15px;
+    }
+}
