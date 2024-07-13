@@ -1,0 +1,31 @@
+/* inicio footer */
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 0;
+    background: #0097a9;
+    .icon {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 30px;
+        height: auto;
+        padding-top: 10px;
+        filter: brightness(2);
+    }
+    .textoFooter a{
+        text-decoration: none !important;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    p {
+        color: white;
+    }
+}
