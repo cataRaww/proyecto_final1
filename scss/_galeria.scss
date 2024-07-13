@@ -1,0 +1,42 @@
+/* GALERIA*/
+@import "_extend";
+.encabezado{
+    font-size: map-get($tamaños-texto, Titulos );
+    color:#ad6def;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.imgPrincipal{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    .imgBajada{
+        width: 285px;
+        height: 265px; }
+        }
+
+.textoPrincipal{
+    font-size: map-get($tamaños-texto, noticias );
+    text-align: left;
+    .imgPrincipal{
+        width: 100%;
+    }  
+}
+
+.bajadaTextoGaleria{
+    margin-top: 20px;
+    background-color:$color-fondo-texto;
+    font-size: map-get($tamaños-texto , bajada-texto);
+    border-radius: 12px;   
+}
+
+.row{
+    @extend .cardimg;
+}
