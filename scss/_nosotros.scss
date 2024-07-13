@@ -42,16 +42,21 @@
     }
     }
 }
-.TextoMision{
+.TextoMision {
     margin-left: 60px;
-    p .TextoMisionBajada {
-        margin-left:30px;
+    p {
+        .TextoMisionBajada {
+            margin-left: 30px;
+        }
     }
 }
-.TextoVision{
+
+.TextoVision {
     margin-left: 60px;
-    p .TextoBajadaVision {
-        margin-left:30px;
+    p {
+        .TextoBajadaVision {
+            margin-left: 30px;
+        }
     }
 }
 
