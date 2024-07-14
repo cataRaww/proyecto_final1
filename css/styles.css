@@ -387,8 +387,8 @@ body .navbar-nav a {
 }
 
 .textoMapsTitulo {
-  font-size: 20px;
-  font-style: italic;
+  font-size: 35px;
+  font-style: bold, italic;
 }
 
 .textoMaps {

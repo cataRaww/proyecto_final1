@@ -68,8 +68,8 @@
     
 
 .textoMapsTitulo{
-    font-size: 20px;
-    font-style: italic;
+    font-size: 35px;
+    font-style: bold,italic;
 }
 .textoMaps{
         font-size: map-get($tamaños-texto, noticias );
