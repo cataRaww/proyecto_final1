@@ -495,64 +495,52 @@ footer p {
   }
 }
 @media (max-width: 768px) {
-  .navbar {
+  .navbar-nav {
     flex-direction: column;
+    width: 100%;
+  }
+  .texto {
+    padding: 10px;
+    text-align: center;
+  }
+  .textoFooter .col-4 {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  .textoFooter .icon {
+    width: 50px;
   }
   .carousel-inner img {
     width: 100%;
     height: auto;
   }
-  .container {
-    flex-direction: column;
-  }
-  .image-container {
-    margin-bottom: 20px;
-  }
   .button {
     width: 100%;
     font-size: 14px;
-  }
-  .textoFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .icon {
-    width: 50px;
-  }
-  .texto {
-    font-size: 14px;
-    padding: 10px;
   }
 }
 @media (max-width: 480px) {
-  .navbar {
+  .navbar-nav {
     flex-direction: column;
+    width: 100%;
+  }
+  .texto {
+    padding: 10px;
+    text-align: center;
+  }
+  .textoFooter .col-4 {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  .textoFooter .icon {
+    width: 40px;
   }
   .carousel-inner img {
     width: 100%;
     height: auto;
   }
-  .container {
-    flex-direction: column;
-  }
-  .image-container {
-    margin-bottom: 20px;
-  }
   .button {
     width: 100%;
     font-size: 12px;
-  }
-  .textoFooter {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .icon {
-    width: 40px;
-  }
-  .texto {
-    font-size: 12px;
-    padding: 5px;
   }
 }/*# sourceMappingURL=styles.css.map */
