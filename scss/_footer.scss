@@ -11,6 +11,7 @@ footer {
     gap: 100px;
     padding: 10px 0;
     background: #0097a9;
+
     .icon {
         margin-left: 10px;
         margin-right: 10px;
@@ -19,6 +20,7 @@ footer {
         padding-top: 10px;
         filter: brightness(2);
     }
+
     a {
         text-decoration: inherit !important;
         text-align: center;
@@ -27,10 +29,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
 
     p {
         color: white;
     }
 }
+
