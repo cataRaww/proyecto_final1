@@ -381,6 +381,19 @@ body .navbar-nav a {
   --bs-btn-disabled-border-color: #0d6efd;
 }
 
+.imgMaps {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.textoMaps {
+  font-size: 13px;
+  text-align: left;
+}
+.textoMaps .imgPrincipal {
+  width: 100%;
+}
+
 /* AYUDA */
 .tituloAyuda {
   margin-top: 30px;
