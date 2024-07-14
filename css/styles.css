@@ -102,7 +102,8 @@ body .navbar-nav a {
   width: 80%;
 }
 .container .image-container {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -152,7 +153,7 @@ body .navbar-nav a {
   gap: 20px;
 }
 .container .card {
-  width: 512px;
+  width: auto;
   height: 550px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -330,9 +331,6 @@ body .navbar-nav a {
   font-size: 14px;
   padding-top: 5px;
 }
-.formulario .textiInforequerida .form-control {
-  width: 500px;
-}
 .formulario .textiInforequerida .form-control .btn btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #0d6efd;
@@ -358,10 +356,6 @@ body .navbar-nav a {
 .textiInforequerida {
   font-size: 14px;
   padding-top: 5px;
-}
-
-.form-control {
-  width: 500px;
 }
 
 .btn btn-primary {
