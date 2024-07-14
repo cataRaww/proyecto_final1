@@ -394,6 +394,10 @@ body .navbar-nav a {
 .textoMaps {
   font-size: 13px;
   text-align: left;
+  align-content: center;
+  margin-top: 20px;
+  background-color: #d5e7f7;
+  border-radius: 12px;
 }
 .textoMaps .imgPrincipal {
   width: 100%;
