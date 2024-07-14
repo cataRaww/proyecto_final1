@@ -386,6 +386,11 @@ body .navbar-nav a {
   margin-bottom: 15px;
 }
 
+.textoMapsTitulo {
+  font-size: 20px;
+  font-style: italic;
+}
+
 .textoMaps {
   font-size: 13px;
   text-align: left;
