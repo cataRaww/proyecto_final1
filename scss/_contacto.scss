@@ -69,15 +69,11 @@
 
 .textoMapsTitulo{
     font-size: 35px;
-    font-style: bold,italic;
+    font-style: bold italic;
 }
 .textoMaps{
         font-size: map-get($tamaños-texto, noticias );
-        text-align: left;
-        align-content: center;
-        margin-top: 20px;
-        background-color:$color-fondo-texto;
-        border-radius: 12px;   
+        text-align: left; 
         .imgPrincipal{
             width: 100%;
         }  
